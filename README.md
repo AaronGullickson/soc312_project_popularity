@@ -24,7 +24,11 @@ This assignment is simply intended to ensure that you have git and Markdown prop
 
 First clone the GitHub Classroom repository for this project. This should make a copy of the entire repository on your system. From within this repository, double-click the `popularity.Rproj` file to launch RStudio with this project.
 
-Second, open up the `collaborator_bio.Rmd` file from within RStudio. Add a paragraph (at least three sentences) to this document describing yourself. When you are done, commit **and push** your changes. Remember, that you must push your changes after the commit in order for other group members to get your changes when they pull. You can also run a pull command to see the descriptions that other committee members have made once they have added their descriptions. 
+Second, open up the `collaborator_bio.Rmd` file from within RStudio. Add a paragraph (at least three sentences) to this document describing yourself. When you are done, commit **and push** your changes. Remember, that you must push your changes after the commit in order for other group members to get your changes when they pull. You should also run a pull command regularly to see the descriptions that other committee members have made . 
+
+Its possible that you may run into conflicts if you and another group member edit the same line in this document. Don't panic! Just refer to the Canvas page instructions on how to resolve a conflict and fix it up. 
+
+Once all committee members have submitted their bios, go to the issues page on GitHub, open up a new issue, and summon me with the `@AaronGullickson` tag to let me know you are ready for review. 
 
 ## Assignment 2: Describing the Key Variables
 

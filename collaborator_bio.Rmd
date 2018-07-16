@@ -1,0 +1,6 @@
+---
+title: "Collaborators"
+output: html_document
+---
+
+Each group member should use this document to briefly describe themselves in a paragraph. 
