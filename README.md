@@ -1,8 +1,8 @@
-Throughout the term, we will be working on building up an analysis of a specific research question, detailed below. At the conclusion of each module, you will complete a Putting It All Together assignment that asks you to analyze the dataset using the specific tools you have learned within that module. For each assignment, you will report your results from this analysis in a 1-2 page report (not including any required tables and figures) that you will upload as a PDF file to Canvas. 
+# Putting It All Together Group Project
 
-The goal of this set of assignments is to prepare you for the final research project that you will conduct at the end of the term, in which you will put all of these components together to answer a different research question. 
+Throughout the term, we will be working in groups to build up an analysis of a specific research question, detailed below. At the conclusion of most modules, you will complete a Putting It All Together assignment that asks you to analyze the dataset using the specific tools you have learned within that module. For each assignment, you will report your results from this analysis in a 1-2 page report (not including any required tables and figures). 
 
-You can get help for this project at any point on the Discussion for Putting It All Together Project.
+The goal of this set of assignments is to prepare you for the solo research project that you will conduct at the end of the term, in which you will put all of these components together to answer a different research question. 
 
 ## Research Topic: Popularity and Substance Use among Adolescents
 
@@ -10,8 +10,23 @@ We will use data from the Add Health survey of adolescents in a sample of Americ
 
 Public health researchers have long been concerned about the effect of peer pressure and social networks on adolescents’ use of alcohol, tobacco, and drugs. The Add Health survey provides an important opportunity to study such effects because it contains data on both substance use and students’ social networks. We will use the Add Health data to address the question of how does academic achievement and substance use (smoking and alcohol) affect a student’s popularity, as measured by the number of friend nominations received?
 
+## Technical Issues
 
-## Describing the Key Variables
+We will be using several technical tools that will help facilitate group work for this project. You may initially find this technical tools frustrating due to lack of familiarity, but ultimately they should help your group to better work on this project collaboratively and to track each student's contribution to the project. These tools will make it easier for me to provide assistance to your group. 
+
+All of the work for this project will be done using the git version control system and GitHub classroom. You should read the separate instructions on Canvas about how to install git and how to use it through RStudio. You should also sign up for an account on GitHub. All of the data and documentation for this project is contained within a git repository that you will clone to your own computer. You can then make changes to files in that repository through RStudio and commit and push those changes so that other group members can see that work that you have done. 
+
+We will also be using R Markdown to write the actual reports as HTML (web page) documents. You should read in full the instructions for using R Markdown on the Canvas page and be sure to install the necessary packages in order to run R Markdown through RStudio. R Markdown will allow you to create professional quality reports with your tables and figures fully integrated. All of the reports that you need to create for this project already have R Markdown templates for you to follow in order to produce the final report. 
+
+## Assignment 1: Getting used to Git and Markdown
+
+This assignment is simply intended to ensure that you have git and Markdown properly installed on your system and understand how to use them. 
+
+First clone the GitHub Classroom repository for this project. This should make a copy of the entire repository on your system. From within this repository, double-click the `popularity.Rproj` file to launch RStudio with this project.
+
+Second, open up the `collaborator_bio.Rmd` file from within RStudio. Add a paragraph (at least three sentences) to this document describing yourself. When you are done, commit **and push** your changes. Remember, that you must push your changes after the commit in order for other group members to get your changes when they pull. You can also run a pull command to see the descriptions that other committee members have made once they have added their descriptions. 
+
+## Assignment 2: Describing the Key Variables
 
 In this assignment, we will begin the analysis of the Add Health data discussed in the Putting It All Together Overview. You can download the data here. Information about the dataset is available here. 
 
@@ -52,7 +67,7 @@ Use clear, concise and accessible language throughout the report. Your target re
 
 All figures and tables should be shown at the end of the report. Caption all figures and tables with numbers and reference them within the text. More information on getting tables and figures from R into Word can be found here. 
 
-## Bivariate Relationships
+## Assignment 3: Bivariate Relationships
 
 In this assignment, we will continue the analysis of the Add Health data discussed in the Putting It All Together Overview. You can download the data here. Information about the dataset is available herePreview the document. 
 
@@ -71,7 +86,7 @@ Use clear, concise and accessible language throughout the report. Your target re
 
 All figures and tables should be shown at the end of the report. Caption all figures and tables with numbers and reference them within the text. More information on getting tables and figures from R into Word can be found here. 
 
-## Full Models
+## Assignment 4: Full Report
 
 In this assignment, we will continue the analysis of the Add Health data discussed in the Putting It All Together Overview. You can download the data here. Information about the dataset is available herePreview the document. 
 
