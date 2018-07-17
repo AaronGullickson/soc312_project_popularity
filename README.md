@@ -30,7 +30,7 @@ Second, open up the `collaborator_bio.Rmd` file from within RStudio. Add a parag
 
 Its possible that you may run into conflicts if you and another group member edit the same line in this document. Don't panic! Just refer to the Canvas page instructions on how to resolve a conflict and fix it. 
 
-Once all roup members have submitted their bios, you can use the knit command in RStudio to turn your collaborator_bio.Rmd file into an HTML. One group member should commit and push this to the GitHub repository. Then go to the issues page on GitHub, open up a new issue, and summon me with the `@AaronGullickson` tag to let me know you are ready for assignment review. 
+Once all group members have submitted their bios, you can use the knit command in RStudio to turn your collaborator_bio.Rmd file into an HTML. One group member should commit and push this to the GitHub repository. Then go to the issues page on GitHub, open up a new issue, and summon me with the `@AaronGullickson` tag to let me know you are ready for assignment review. 
 
 ## Assignment 2: Describing the Key Variables
 
@@ -53,7 +53,13 @@ Use the R Markdown file `describe_vars.Rmd` to write your report. Your report sh
 
 - Descriptions of the key variables (in your own words) that will be used to address the research question. Clarify what type of variable you have in each case and how the variable was measured. Describe the distribution of each variable focusing on issues of center, spread, shape, and outliers. You should describe each variable in a paragraph and include at least one figure showing its distribution.
 
-Use clear, concise and accessible language throughout the report. Your target reader is not me, but rather a smart group of people who have little experience in interpreting statistics. Your job is to explain your results to them. Because you will be describing things that are already described from other sources, be sure to not accidentally plagiarize text. Describe everything in your own words. 
+Please keep the following guidelines in mind for all project reports: 
+
+- Use clear, concise and accessible language throughout the report. Your target reader is not me, but rather a smart group of people who have little experience in interpreting statistics. Your job is to explain your results to them. 
+- Because you will be describing things that are already described from other sources, be sure to not accidentally plagiarize text. Describe everything in your own words. 
+- Do not refer to variables by their label in R (e.g. "indegree"). Do refer to variables in concrete meaningful ways (e.g. "number of friend nominations")
+- Do not provide a narrative of your R script (e.g. "Then, I ran the tapply command to calculate mean differences between A and B "). Do present the results from your analysis in R in a way that someone who didn't know R from a hole in the ground would understand (e.g. "On average, members of A had XX more friend nominations than members of B").
+- Do not use a casual tone. Do use a professional tone. 
 
 When your final report is ready, one team member should knit the final report to HTML and commit and push this report to GitHub. Then open a new issue, and summon me with the `@AaronGullickson` tag to let me know you are ready for assignment review. 
 
@@ -74,31 +80,36 @@ For your report, provide graphical and numerical summaries of these relationship
 
 Use the R Markdown file `bivariate_models.Rmd` to write your report. Your report should describe the relationships listed above, using 1-2 paragraphs to describe each relationship along with accompanying figures that show the relationship graphically. You do not need to provide an introduction or background for this report. 
 
-Use clear, concise and accessible language throughout the report. Your target reader is not me, but rather a smart group of people who have little experience in interpreting statistics. Your job is to explain your results to them.
+Refer to the instructions for the previous assignment for further expectations about the report.
 
 ## Assignment 4: Full Report
 
-In this assignment, we will continue the analysis of the Add Health data discussed in the Putting It All Together Overview. You can download the data here. Information about the dataset is available herePreview the document. 
+In this assignment, we will complete the analysis of the Add Health data by constructing multivariate models predicting the number of friend nominations a student receives. You will then write a full report of your entire analysis, drawing upon the analysis conducted here and the results of your prior assignments. 
 
-We are now ready to build full multivariate models of the key relationships. For this assignment, I want you to create three OLS regression models as follows: 
+For this assignment, I want you to create three OLS regression models as follows: 
 
-Predict friend nominations by pseudo-GPA, smoking, and alcohol use.
-Predict friend nominations by pseudo-GPA, smoking, and alcohol use, as well as the control variables of race, sex, number of sports (nsports), and parentinc. 
-Use all the same variables as in (2) but also include an interaction between pseudo-GPA and smoking OR between pseudo-GPA and alcohol use. 
-You should conduct your analysis using a well-commented R script. 
+1. Predict friend nominations by pseudo-GPA, smoking, and alcohol use.
+2. Predict friend nominations by pseudo-GPA, smoking, and alcohol use, as well as the control variables of race, sex, number of sports (nsports), and parentinc. 
+3. Use all the same variables as in model (2) but also include an interaction between pseudo-GPA and smoking OR between pseudo-GPA and alcohol use (your choice). 
 
 ### Report Guidelines
 
-Your report should include a 1-2 page (single-spaced) description of your results as well as a table of the regression results. You should interpret the results for the key variables of pseudo-GPA, alcohol use, and smoking across all three models as well as the interaction terms in model 3. You do not need to interpret all of the other variables, but you should note if results change for your key variables based on the inclusion of these control variables.  
+Use the `full_report.Rmd` file to write your report. You should write a full report that contains the following sections:
 
-Use clear, concise and accessible language throughout the report. Your target reader is not me, but rather a smart group of people who have little experience in interpreting statistics. Your job is to explain your results to them.
+1. Introduction: A statement of the research question (in your own words) and a justification for why it is important to know the answer to this research question. Use your sociological imagination for the justification. This should be a single paragraph.
+2. Data: A description of the dataset (in your own words) being used to analyze the data as well as a description of the key variables used in the analysis, including figures.
+3. Results: Present and describe the results of the multivariate OLS regression models. You do not need to intrepret every slope in your regression model, but you should describe in simple terms the meaning of the slope for all of the key variables in your analysis and discuss how these results change across different models. You should also discuss the statistical significance of your findings. 
+4. Conclusion: Summarize the findings as they relate to the original research question. 
 
-The table should be shown at the end of the report with a proper caption. More information on producing a nicely formatted table of regression results using Word can be found here. 
+You can draw upon your work in prior assignments for some of these sections, but be sure to consider any comments I have provided on these assignments for the final report. 
 
-Please remember these guidelines in writing your report:
+You must present your regression results using a table. The easiest way to do this is with the add-on `stargazer` package for R. You can install this package with the following command, when connected to the internet:
 
-Do not refer to variables by their label in R (e.g. "indegree"). Do refer to variables in concrete meaningful ways (e.g. "number of friend nominations")
+```r
+install.packages("stargazer")
+```
 
-Do not provide a narrative of your R script (e.g. "Then, I ran the tapply command to calculate mean differences between A and B "). Do present the results from your analysis in R in a way that someone who didn't know R from a hole in the ground would understand (e.g. "On average, members of A had XX more friend nominations than members of B").
+The `full_report.Rmd` contains a template code chunk using stargazer that should help get you started. Be sure to look at the Canvas page on using stargazer for more information. 
 
-Do not use a causal tone. Do use a professional tone. 
+Refer to the instructions for assignment 2 for further expectations about the report.
+
