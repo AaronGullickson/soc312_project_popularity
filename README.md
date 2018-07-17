@@ -6,7 +6,7 @@ Throughout the term, we will be working in groups to build up an analysis of a s
 
 We will use data from the Add Health survey of adolescents in a sample of American high schools. This survey asked students to nominate their friends from the same school, from which one can construct network data. A subset of the  data that we will use for this analysis and more information about the dataset can be found in the `input` directory of this repository. 
 
-Public health researchers have long been concerned about the effect of peer pressure and social networks on adolescents’ use of alcohol, tobacco, and drugs. The Add Health survey provides an important opportunity to study such effects because it contains data on both substance use and students’ social networks. We will use the Add Health data to address the question of how does academic achievement and substance use (smoking and alcohol) affect a student’s popularity, as measured by the number of friend nominations received?
+Public health researchers have long been concerned about the effect of peer pressure and social networks on adolescents’ use of alcohol, tobacco, and drugs. The Add Health survey provides an important opportunity to study such effects because it contains data on both substance use and students’ social networks. We will use the Add Health data to address the question of how academic achievement and substance use (smoking and alcohol) affect a student’s popularity, as measured by the number of friend nominations received.
 
 ## Technical Issues
 
@@ -30,44 +30,28 @@ Once all committee members have submitted their bios, you can use the knit comma
 
 ## Assignment 2: Describing the Key Variables
 
-In this assignment, we will begin the analysis of the Add Health data discussed in the Putting It All Together Overview. You can download the data here. Information about the dataset is available here. 
+In this assignment, we will begin the analysis of the Add Health data discussed in the Putting It All Together Overview. Our first step is to identify and describe the key variables in our analysis. These key variables are:
 
-Our first step is to identify and describe the key variables in our analysis. These key variables are:
+- The number of friend nominations (indegree) which will serve as our measure of popularity. 
+- A "pseudo" measure of GPA (pseudoGPA) which will serve as our measure of academic achievement. 
+- Alcohol use (alcoholuse).
+- Smoking behavior (smoker). 
 
-The number of friend nominations (indegree) which will serve as our measure of popularity. 
-A "pseudo" measure of GPA (pseudoGPA) which will serve as our measure of academic achievement. 
-Alcohol use (alcoholuse).
-Smoking behavior (smoker). 
-Please look at the descriptions of each variable and make sure you understand how they are being measured. 
+Please look at the descriptions of each variable in the information in the `input` directory and make sure you understand how they are being measured. The next step is to look at the distribution of each of these key variables in the dataset. You should review how each variable is measured and use appropriate techniques to describe the distribution of the variables accurately in your report. 
 
 ### Report Guidelines
 
-Your report should be  1-2 pages (single-spaced) and should include the following information:
+Your report should include the following information:
 
-A statement of the research question (in your own words) and a justification for why it is important to know the answer to this research question. Use your sociological imagination for the justification. This should be a single paragraph.
+- A statement of the research question (in your own words) and a justification for why it is important to know the answer to this research question. Use your sociological imagination for the justification. This should be a single paragraph.
 
-A description of the dataset (in your own words) being used to analyze the data. Where does this data come from? When was it collected? Is it representative of all students? This should be a single paragraph. 
-Descriptions of the key variables (in your own words) that will be used to address the research question. Clarify what type of variable you have in each case and how the variable was measured.   
+- A description of the dataset (in your own words) being used to analyze the data. Where does this data come from? When was it collected? Is it representative of all students? This should be a single paragraph. 
+
+- Descriptions of the key variables (in your own words) that will be used to address the research question. Clarify what type of variable you have in each case and how the variable was measured. Describe the distribution of each variable focusing on issues of center, spread, shape, and outliers. You should include at least one figure showing the distribution for each key variable. 
 
 Use clear, concise and accessible language throughout the report. Your target reader is not me, but rather a smart group of people who have little experience in interpreting statistics. Your job is to explain your results to them.
 
 Because you will be describing things that are already described from other sources, be sure to not accidentally plagiarize text. Describe everything in your own words. 
-
-## Univariate Distributions
-
-In this assignment, we will continue the analysis of the Add Health data discussed in the Putting It All Together Overview. You can download the data here. Information about the dataset is available herePreview the document. 
-
-Our first step is to look at the distribution of each of the key variables in the dataset. You should review how each variable is measured and be sure to describe the variables accurately in your report. 
-
-For your report, provide graphical and numerical summaries of the distribution of each key variable using the tools that we have developed in this module. You will need to pay attention to the type of variable you have in each case to provide the correct summary measures and figures. You should conduct your analysis using a well-commented R script. 
-
-### Report Guidelines
-
-Your report should include a 1-2 page (single-spaced) description each distribution as well as accompanying tables and figures. You should focus on issues of center, spread, shape, and outliers. 
-
-Use clear, concise and accessible language throughout the report. Your target reader is not me, but rather a smart group of people who have little experience in interpreting statistics. Your job is to explain your results to them.
-
-All figures and tables should be shown at the end of the report. Caption all figures and tables with numbers and reference them within the text. More information on getting tables and figures from R into Word can be found here. 
 
 ## Assignment 3: Bivariate Relationships
 
