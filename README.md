@@ -1,5 +1,17 @@
 # Putting It All Together Group Project
 
+**Table of Contents**
+
+- [Introduction](#introduction)
+- [Research Topic](#esearch-topic-popularity-and-substance-use-among-adolescents)
+- [Technical Details](#technical-details)
+- [Assignment 1: Getting Used to Git and Markdown](#assignment-1-getting-used-to-git-and-markdown)
+- [Assignment 2: Describing the Key Variables](#assignment-2-describing-the-key-variables)
+- [Assignment 3: Bivariate Associations](#assignment-3-bivariate-associations)
+- [Assignment 4 Full Report](#assignment-4-full-report)
+
+#Introduction
+
 Throughout the term, we will be working in groups to build up an analysis of a specific research question, detailed below. At the conclusion of most modules, you will complete a Putting It All Together assignment that asks you to analyze the dataset using the specific tools you have learned within that module. For each assignment, you will report your results in a brief report. The goal of this set of assignments is to prepare you for the solo research project that you will conduct at the end of the term, in which you will put all of these components together to answer a different research question. 
 
 You are free to organize your group as you like, but I recommend that you nominate one person to be the organizational lead for each assignment. This person will be responsible for handling conflicts, knitting final results, and communicating completion to me. You can rotate this responsibility among group members if you like. 
@@ -10,7 +22,7 @@ We will use data from the Add Health survey of adolescents in a sample of Americ
 
 Public health researchers have long been concerned about the effect of peer pressure and social networks on adolescents’ use of alcohol, tobacco, and drugs. The Add Health survey provides an important opportunity to study such effects because it contains data on both substance use and students’ social networks. We will use the Add Health data to address the question of how academic achievement and substance use (smoking and alcohol) affect a student’s popularity, as measured by the number of friend nominations received.
 
-## Technical Issues
+## Technical Details
 
 We will be using several technical tools that will help facilitate group work for this project. You may initially find these tools frustrating due to lack of familiarity, but ultimately they should help your group to better work on this project collaboratively and to track each student's contribution to the project. These tools will also make it easier for me to provide assistance to your group. 
 
