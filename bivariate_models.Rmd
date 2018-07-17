@@ -1,9 +1,15 @@
 ---
-title: "Assignment 2: Bivariate Models"
+title: "Assignment 2: Bivariate Associations"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+load("input/addhealth.RData")
 ```
 
+Describe the association between each of the key variables as described in the README file. You can copy and past the code chunk below to produce figures. Be sure to change the `figuretemplate` name in each code chunk to a unique name or you will get a duplicate naming error. 
+
+```{r figuretemplate, echo=FALSE, fig.cap="A Caption"}
+#code (e.g. plot, barplot, boxplot) to produce the figure
+```

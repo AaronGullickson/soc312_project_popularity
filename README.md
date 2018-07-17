@@ -45,7 +45,7 @@ Please look at the descriptions of each variable in the information in the `inpu
 
 ### Report Guidelines
 
-Your report should include the following information:
+Use the R Markdown file `describe_vars.Rmd` to write your report. Your report should include the following information:
 
 - A statement of the research question (in your own words) and a justification for why it is important to know the answer to this research question. Use your sociological imagination for the justification. This should be a single paragraph.
 
@@ -57,7 +57,7 @@ Use clear, concise and accessible language throughout the report. Your target re
 
 When your final report is ready, one team member should knit the final report to HTML and commit and push this report to GitHub. Then open a new issue, and summon me with the `@AaronGullickson` tag to let me know you are ready for assignment review. 
 
-## Assignment 3: Bivariate Relationships
+## Assignment 3: Bivariate Associations
 
 In this assignment, we will continue the analysis of the Add Health data. For this assignment we will look at the key bivaraiate relationships between variables in the dataset. I want you to analyze the following associations: 
 
@@ -72,7 +72,7 @@ For your report, provide graphical and numerical summaries of these relationship
 
 ### Report Guidelines
 
-Your report should describe the relationships listed above, using 1-2 paragraphs to describe each relationship along with accompanying figures that show the relationship graphically. You do not need to provide an introduction or background for this report. 
+Use the R Markdown file `bivariate_models.Rmd` to write your report. Your report should describe the relationships listed above, using 1-2 paragraphs to describe each relationship along with accompanying figures that show the relationship graphically. You do not need to provide an introduction or background for this report. 
 
 Use clear, concise and accessible language throughout the report. Your target reader is not me, but rather a smart group of people who have little experience in interpreting statistics. Your job is to explain your results to them.
 
