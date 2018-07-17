@@ -24,7 +24,7 @@ Finally, you can and should use the GitHub interface to help coordinate activiti
 
 This assignment is intended to ensure that you have git and Markdown properly installed on your system and understand how to use them. 
 
-First clone the GitHub Classroom repository for this project through the `New Project` interface in RStudio, as described on the git instructions on the Canvas page. This should make a copy of the entire repository on your system and load the project into RStudio. You can always reload the project into RStudio from your filesystem by double-clicking the `popularity.Rproj` file.
+First clone the GitHub Classroom repository for this project through the `New Project` interface in RStudio, as described on the git instructions on the Canvas page. This should make a copy of the entire repository on your system and load the project into RStudio. You can always reload the project into RStudio from your file system by double-clicking the `popularity.Rproj` file.
 
 Second, open up the `collaborator_bio.Rmd` file from within RStudio. Add a paragraph (at least three sentences) to this document describing yourself. You should also include your GitHub user name. When you are done, commit **and push** your changes. Remember that you must push your changes after the commit in order for other group members to get your changes when they pull. You should also run a pull command regularly to see the descriptions that other committee members have made. 
 
@@ -65,7 +65,7 @@ When your final report is ready, one team member should knit the final report to
 
 ## Assignment 3: Bivariate Associations
 
-In this assignment, we will continue the analysis of the Add Health data. For this assignment we will look at the key bivaraiate relationships between variables in the dataset. I want you to analyze the following associations: 
+In this assignment, we will continue the analysis of the Add Health data. For this assignment we will look at the key bivariate relationships between variables in the dataset. I want you to analyze the following associations: 
 
 - The association between smoking and alcohol use.
 - The association between smoking and pseudo-GPA.
@@ -98,7 +98,7 @@ Use the `full_report.Rmd` file to write your report. You should write a full rep
 
 1. Introduction: A statement of the research question (in your own words) and a justification for why it is important to know the answer to this research question. Use your sociological imagination for the justification. This should be a single paragraph.
 2. Data: A description of the dataset (in your own words) being used to analyze the data as well as a description of the key variables used in the analysis, including figures.
-3. Results: Present and describe the results of the multivariate OLS regression models. You do not need to intrepret every slope in your regression model, but you should describe in simple terms the meaning of the slope for all of the key variables in your analysis and discuss how these results change across different models. You should also discuss the statistical significance of your findings. 
+3. Results: Present and describe the results of the multivariate OLS regression models. You do not need to interpret every slope in your regression model, but you should describe in simple terms the meaning of the slope for all of the key variables in your analysis and discuss how these results change across different models. You should also discuss the statistical significance of your findings. 
 4. Conclusion: Summarize the findings as they relate to the original research question. 
 
 You can draw upon your work in prior assignments for some of these sections, but be sure to consider any comments I have provided on these assignments for the final report. 
