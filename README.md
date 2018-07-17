@@ -10,7 +10,7 @@
 - [Assignment 3: Bivariate Associations](#assignment-3-bivariate-associations)
 - [Assignment 4 Full Report](#assignment-4-full-report)
 
-#Introduction
+# Introduction
 
 Throughout the term, we will be working in groups to build up an analysis of a specific research question, detailed below. At the conclusion of most modules, you will complete a Putting It All Together assignment that asks you to analyze the dataset using the specific tools you have learned within that module. For each assignment, you will report your results in a brief report. The goal of this set of assignments is to prepare you for the solo research project that you will conduct at the end of the term, in which you will put all of these components together to answer a different research question. 
 
