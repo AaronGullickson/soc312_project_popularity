@@ -59,22 +59,22 @@ When your final report is ready, one team member should knit the final report to
 
 ## Assignment 3: Bivariate Relationships
 
-In this assignment, we will continue the analysis of the Add Health data discussed in the Putting It All Together Overview. You can download the data here. Information about the dataset is available herePreview the document. 
+In this assignment, we will continue the analysis of the Add Health data. For this assignment we will look at the key bivaraiate relationships between variables in the dataset. I want you to analyze the following associations: 
 
-Our next step is to look at the key relationships between variables in the dataset. I want you to analyze the following relationships. 
+- The association between smoking and alcohol use.
+- The association between smoking and pseudo-GPA.
+- The association between alcohol use and pseudo-GPA. 
+- The association between smoking and friend nominations.
+- The association between alcohol use and friend nominations.
+- The association between pseudo-GPA and friend nominations. 
 
-The relationship between smoking and friend nominations.
-The relationship between alcohol use and friend nominations.
-The relationship between pseudo-GPA and friend nominations. 
-For your report, provide graphical and numerical summaries of these relationships using the tools that we have developed in this module. You will need to pay attention to the type of variable you have in each case in order to use the right measure of association and provide the correct graph. You should conduct your analysis using a well-commented R script. 
+For your report, provide graphical and numerical summaries of these relationships using the tools that we have developed in the course. You will need to pay attention to the type of variable you have in each case in order to use the right measure of association and provide the correct graph. 
 
 ### Report Guidelines
 
-Your report should include a 1-2 page (single-spaced) description of each relationship as well as accompanying tables and figures.
+Your report should describe the relationships listed above, using 1-2 paragraphs to describe each relationship along with accompanying figures that show the relationship graphically. You do not need to provide an introduction or background for this report. 
 
 Use clear, concise and accessible language throughout the report. Your target reader is not me, but rather a smart group of people who have little experience in interpreting statistics. Your job is to explain your results to them.
-
-All figures and tables should be shown at the end of the report. Caption all figures and tables with numbers and reference them within the text. More information on getting tables and figures from R into Word can be found here. 
 
 ## Assignment 4: Full Report
 
