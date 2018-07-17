@@ -1,34 +1,32 @@
 # Putting It All Together Group Project
 
-Throughout the term, we will be working in groups to build up an analysis of a specific research question, detailed below. At the conclusion of most modules, you will complete a Putting It All Together assignment that asks you to analyze the dataset using the specific tools you have learned within that module. For each assignment, you will report your results from this analysis in a 1-2 page report (not including any required tables and figures). 
-
-The goal of this set of assignments is to prepare you for the solo research project that you will conduct at the end of the term, in which you will put all of these components together to answer a different research question. 
+Throughout the term, we will be working in groups to build up an analysis of a specific research question, detailed below. At the conclusion of most modules, you will complete a Putting It All Together assignment that asks you to analyze the dataset using the specific tools you have learned within that module. For each assignment, you will report your results in a brief report. The goal of this set of assignments is to prepare you for the solo research project that you will conduct at the end of the term, in which you will put all of these components together to answer a different research question. 
 
 ## Research Topic: Popularity and Substance Use among Adolescents
 
-We will use data from the Add Health survey of adolescents in a sample of American high schools. This survey asked students to nominate their friends from the same school, from which one can construct network data. You can download the data here. More information about the Add Health Survey and the variables can be found here.
+We will use data from the Add Health survey of adolescents in a sample of American high schools. This survey asked students to nominate their friends from the same school, from which one can construct network data. A subset of the  data that we will use for this analysis and more information about the dataset can be found in the `input` directory of this repository. 
 
 Public health researchers have long been concerned about the effect of peer pressure and social networks on adolescents’ use of alcohol, tobacco, and drugs. The Add Health survey provides an important opportunity to study such effects because it contains data on both substance use and students’ social networks. We will use the Add Health data to address the question of how does academic achievement and substance use (smoking and alcohol) affect a student’s popularity, as measured by the number of friend nominations received?
 
 ## Technical Issues
 
-We will be using several technical tools that will help facilitate group work for this project. You may initially find this technical tools frustrating due to lack of familiarity, but ultimately they should help your group to better work on this project collaboratively and to track each student's contribution to the project. These tools will make it easier for me to provide assistance to your group. 
+We will be using several technical tools that will help facilitate group work for this project. You may initially find these tools frustrating due to lack of familiarity, but ultimately they should help your group to better work on this project collaboratively and to track each student's contribution to the project. These tools will also make it easier for me to provide assistance to your group. 
 
-All of the work for this project will be done using the git version control system and GitHub classroom. You should read the separate instructions on Canvas about how to install git and how to use it through RStudio. You should also sign up for an account on GitHub. All of the data and documentation for this project is contained within a git repository that you will clone to your own computer. You can then make changes to files in that repository through RStudio and commit and push those changes so that other group members can see that work that you have done. 
+All of the work for this project will be done using the [git](https://git-scm.com/) version control system and GitHub classroom. You should read the separate instructions on Canvas about how to install git and how to use it through RStudio. You should also sign up for an account on [GitHub](https://github.com). All of the data and documentation for this project is contained within a git repository that you will clone to your own computer. You can then make changes to files in that repository through RStudio and commit and push those changes so that other group members can see the work that you have done. 
 
-We will also be using R Markdown to write the actual reports as HTML (web page) documents. You should read in full the instructions for using R Markdown on the Canvas page and be sure to install the necessary packages in order to run R Markdown through RStudio. R Markdown will allow you to create professional quality reports with your tables and figures fully integrated. All of the reports that you need to create for this project already have R Markdown templates for you to follow in order to produce the final report. 
+We will also be using [R Markdown](https://rmarkdown.rstudio.com/) to write the actual reports as HTML (web page) documents. You should read in full the instructions for using R Markdown on the Canvas page and be sure to install the necessary packages in order to run R Markdown through RStudio. R Markdown will allow you to create professional quality reports with your tables and figures fully integrated. All of the reports that you need to create for this project already have R Markdown templates for you to follow in order to produce the report. 
 
 ## Assignment 1: Getting used to Git and Markdown
 
 This assignment is simply intended to ensure that you have git and Markdown properly installed on your system and understand how to use them. 
 
-First clone the GitHub Classroom repository for this project. This should make a copy of the entire repository on your system. From within this repository, double-click the `popularity.Rproj` file to launch RStudio with this project.
+First clone the GitHub Classroom repository for this project through the `New Project` interface in RStudio, as described on the git instructions on the Canvas page. This should make a copy of the entire repository on your system and load the project into RStudio. You can always reload the project into RStudio from your filesystem by double-clicking the `popularity.Rproj` file.
 
-Second, open up the `collaborator_bio.Rmd` file from within RStudio. Add a paragraph (at least three sentences) to this document describing yourself. When you are done, commit **and push** your changes. Remember, that you must push your changes after the commit in order for other group members to get your changes when they pull. You should also run a pull command regularly to see the descriptions that other committee members have made . 
+Second, open up the `collaborator_bio.Rmd` file from within RStudio. Add a paragraph (at least three sentences) to this document describing yourself. When you are done, commit **and push** your changes. Remember, that you must push your changes after the commit in order for other group members to get your changes when they pull. You should also run a pull command regularly to see the descriptions that other committee members have made. 
 
-Its possible that you may run into conflicts if you and another group member edit the same line in this document. Don't panic! Just refer to the Canvas page instructions on how to resolve a conflict and fix it up. 
+Its possible that you may run into conflicts if you and another group member edit the same line in this document. Don't panic! Just refer to the Canvas page instructions on how to resolve a conflict and fix it. 
 
-Once all committee members have submitted their bios, go to the issues page on GitHub, open up a new issue, and summon me with the `@AaronGullickson` tag to let me know you are ready for review. 
+Once all committee members have submitted their bios, you can use the knit command in RStudio to turn your collaborator_bio.Rmd file into an HTML. One group member should commit and push this to the GitHub repository. Then go to the issues page on GitHub, open up a new issue, and summon me with the `@AaronGullickson` tag to let me know you are ready for assignment review. 
 
 ## Assignment 2: Describing the Key Variables
 
