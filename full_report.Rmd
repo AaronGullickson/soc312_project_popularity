@@ -1,0 +1,9 @@
+---
+title: "Full Report on Popularity and Smoking/Drinking Behavior among Adolescents"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
